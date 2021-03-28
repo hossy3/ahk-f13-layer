@@ -11,6 +11,8 @@ SetKeyDelay, -1
 
 CapsLockState := "Off" ; Off | Tapping | Pressing
 
+CapsLock::F13
+
 CapsLock & a::Home
 CapsLock & b::Return
 CapsLock & c::PgDn
@@ -72,7 +74,7 @@ CapsLock & Tab::CapsLock
 CapsLock & AppsKey::RAlt
 CapsLock & vk13::Suspend ; Pause/Break
 
-#If TapCapsLockToCapsLock || TapCapsLockToEisu
+#If (TapCapsLockToCapsLock || TapCapsLockToEisu)
 ~*CapsLock::
     If (CapsLockState = "Off") {
         CapsLockState := "Tapping"

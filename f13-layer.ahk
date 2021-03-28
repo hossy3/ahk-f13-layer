@@ -11,8 +11,6 @@ SetKeyDelay, -1
 
 F13State := "Off" ; Off | Tapping | Pressing
 
-F13::Return
-
 F13 & a::Home
 F13 & b::Return
 F13 & c::PgDn
@@ -74,7 +72,7 @@ F13 & Tab::CapsLock
 F13 & AppsKey::RAlt
 F13 & vk13::Suspend ; Pause/Break
 
-#If TapF13ToCapsLock || TapF13ToEisu
+#If (TapF13ToCapsLock || TapF13ToEisu)
 ~*F13::
     If (F13State = "Off") {
         F13State := "Tapping"
