@@ -11,6 +11,8 @@ SetKeyDelay, -1
 
 F13State := "Off" ; Off | Tapping | Pressing
 
+F13::Return
+
 F13 & a::Home
 F13 & b::Return
 F13 & c::PgDn
