@@ -54,4 +54,4 @@ f13-layer.ahk ファイルをエクスプローラーでダブルクリックし
 ## 公開ページ
 
 * [hossy3/ahk\-f13\-layer: F13, CapsLock キーを押している間、他のキー配置を入れ替える AutoHotKey スクリプト例](https://github.com/hossy3/ahk-f13-layer)
-* 紹介ページ (2021-04-01 公開予定)
+* [英語配列キーボードで日本語入力と英語入力を切り替えやすくしたい \(3\) AHKレイヤー編 \- Qiita](https://qiita.com/hossie/items/cf3f1c52ee03d8f21c21)
